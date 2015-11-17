@@ -1,0 +1,5 @@
+default : cmake
+gcc49 : boost libxmlxx2 glibmm
+
+working
+
