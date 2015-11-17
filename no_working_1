@@ -1,0 +1,5 @@
+port install gcc49 pkgconfig python27 glib2 doxygen graphviz libvpx gts libnetpbm xorg-renderproto cairo netpbm psutils perl5.22
+port install cmake configure.compiler=macports-gcc-4.9
+port install boost  configure.compiler=macports-gcc-4.9
+port install libxmlxx2 
+port install glibmm

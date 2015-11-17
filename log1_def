@@ -1,0 +1,5 @@
+default : libxmlxx2 glibmm 
+gcc49 : cmake boost
+
+not working
+

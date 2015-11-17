@@ -1,0 +1,14 @@
+pkgconfig
+python27
+glib2
+doxygen
+graphviz
+libvpx
+gts
+libnetpbm
+xorg-renderproto
+cairo
+netpbm (fail // need sudo)
+psutils
+perl5.22 
+

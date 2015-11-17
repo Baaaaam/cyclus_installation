@@ -1,0 +1,14 @@
+cd ~/scratch/App/hdf5/build
+rm -rf *
+../configure --prefix=/opt/local
+make -j 4
+sudo make install
+cd ~/scratch/App/Coin-Cbc/build
+rm -rf *
+../configure --prefix=/opt/local
+make -j 4
+sudo make install
+cd ~/scratch/App/cyclus/cyclus
+rm -rf build
+python install.py
+cyclus_unit_tests
