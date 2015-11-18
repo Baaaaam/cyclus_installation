@@ -10,6 +10,7 @@ the **install.log_#** file contain all the log of the installation, (where # ref
 
 
 **package_list** contain the different package and their dependencies with a (fails) with the installation of the package fails with mp_gcc49
+
 **package_fails** is the list of package I was not able to compile with mp_gcc49
 
 
