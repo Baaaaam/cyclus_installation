@@ -8,7 +8,7 @@ gts
 libnetpbm
 xorg-renderproto
 cairo
-netpbm (fail // need sudo)
+netpbm
 psutils
 perl5.22 
 

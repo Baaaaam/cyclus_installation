@@ -13,7 +13,7 @@ perl5
 perl5.16 
 gdbm 
 openssl 
-pkgconfig (fail)
+pkgconfig (fails)
 libarchive 
 libxml2 
 lzo2
@@ -30,10 +30,10 @@ libxmlxx2
 glibmm
 autoconf 
 automake 
-glib2 (fail)
+glib2 (fails)
 pcre 
 libsigcxx2 
-doxygen (fail)
+doxygen (fails)
 bison 
 bison-runtime 
 m4 
@@ -44,7 +44,7 @@ fontconfig
 freetype 
 gd2 
 jpeg 
-libvpx (fail)
+libvpx (fails)
 yasm 
 tiff 
 libtool 
@@ -69,12 +69,12 @@ xorg-libXt
 xorg-libsm 
 xorg-libice 
 gts (fail)
-libnetpbm (fail)
+libnetpbm (fails)
 libLASi 
 pango 
 Xft2 
 xrender 
-xorg-renderproto (fail)
+xorg-renderproto (fails)
 cairo (fail)
 libpixman 
 xorg-xcb-util 
@@ -92,7 +92,7 @@ ghostscript
 jbig2dec 
 libidn 
 libpaper 
-netpbm (fail // need sudo)
+netpbm (fails)
 jasper 
 jbigkit 
 psutils (fails)
@@ -135,147 +135,3 @@ p5.22-www-robotrules
 
 doxygen
 glibmm
-
-
-
-Cyclus compilation
-
-configure.compiler=macports-gcc-4.9
-
-
-
-
-cmake
-bzip2 
-curl 
-curl-ca-bundle 
-perl5 
-perl5.16 
-gdbm 
-openssl 
-pkgconfig (fail)
-libarchive 
-libxml2 
-lzo2
-
-boost
-icu 
-python27 (fail -- port select --set python python27)
-db48 
-python2_select 
-python_select 
-sqlite3
-
-libxmlxx2
-glibmm
-autoconf 
-automake 
-glib2 (fail)
-pcre 
-libsigcxx2 
-doxygen (fail)
-bison 
-bison-runtime 
-m4 
-flex 
-libpng 
-graphviz (fails)
-fontconfig 
-freetype 
-gd2 
-jpeg 
-libvpx (fail)
-yasm 
-tiff 
-libtool 
-xpm 
-xorg-libXext 
-xorg-libX11 
-xorg-bigreqsproto 
-xorg-inputproto 
-xorg-kbproto 
-xorg-libXau 
-xorg-xproto 
-xorg-libXdmcp 
-xorg-libxcb 
-xorg-libpthread-stubs 
-xorg-xcb-proto 
-xorg-util-macros 
-xorg-xcmiscproto 
-xorg-xextproto 
-xorg-xf86bigfontproto 
-xorg-xtrans 
-xorg-libXt 
-xorg-libsm 
-xorg-libice 
-gts (fail)
-libnetpbm (fail)
-libLASi 
-pango 
-Xft2 
-xrender 
-xorg-renderproto (fail)
-cairo (fail)
-libpixman 
-xorg-xcb-util 
-gobject-introspection 
-py27-mako 
-py27-beaker 
-py27-setuptools 
-py27-markupsafe 
-harfbuzz graphite2 
-urw-fonts 
-webp 
-xorg-libXaw 
-groff 
-ghostscript 
-jbig2dec 
-libidn 
-libpaper 
-netpbm (fail // need sudo)
-jasper 
-jbigkit 
-psutils (fails)
-texinfo 
-help2man 
-p5.22-locale-gettext 
-perl5.22 (fail)
-xorg-libXmu 
-libxslt 
-mm-common 
-gsed 
-wget 
-gnutls 
-libtasn1 
-nettle 
-p11-kit 
-desktop-file-utils 
-popt 
-p5.22-xml-parser 
-p5.22-libwww-perl 
-p5.22-encode-locale p5.22-file-listing p5.22-http-date 
-p5.22-html-form 
-p5.22-html-parser p5.22-html-tagset p5.22-http-message 
-p5.22-io-html 
-p5.22-lwp-mediatypes p5.22-uri p5.22-mime-base64 
-p5.22-http-cookies 
-p5.22-http-daemon p5.22-http-negotiate p5.22-lwp-protocol-https 
-p5.22-io-socket-ssl 
-p5.22-io-socket-inet6 p5.22-io p5.22-socket6 p5.22-io-socket-ip 
-p5.22-net-libidn 
-p5.22-net-ssleay 
-p5.22-test-exception 
-p5.22-sub-uplevel 
-p5.22-test-simple 
-p5.22-test-nowarnings 
-p5.22-test-warn 
-p5.22-mozilla-ca 
-p5.22-net-http 
-p5.22-www-robotrules
-
-doxygen
-glibmm
-
-
-
-
