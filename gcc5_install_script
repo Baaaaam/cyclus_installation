@@ -1,0 +1,10 @@
+port install gcc5 python27
+port select gcc mp-gcc5
+port select python python27
+port install cmake
+port install -s boost configure.compiler=macports-gcc-5
+port install -s libxml2 configure.compiler=macports-gcc-5
+port install -s libxmlxx2 configure.compiler=macports-gcc-5
+port install -s sqlite3 configure.compiler=macports-gcc-5
+port install -s doxygen configure.compiler=macports-gcc-5
+port install -s glibmmconfigure.compiler=macports-gcc-5

@@ -1,4 +1,4 @@
-port -fp uninstall installed
-rm -rf /opt/local
-installer -pkg ./MacPorts-2.3.4-10.11-ElCapitan.pkg -target /
+sudo port -fp uninstall installed
+sudo rm -rvf /opt/local
+sudo installer -pkg ./MacPorts-2.3.4-10.11-ElCapitan.pkg -target /
 

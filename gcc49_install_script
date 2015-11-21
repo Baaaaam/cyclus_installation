@@ -1,0 +1,10 @@
+port install gcc49 python27
+port select gcc mp-gcc49
+port select python python27
+port install -s cmake configure.compiler=macports-gcc-4.9
+port install -s boost configure.compiler=macports-gcc-4.9
+port install -s libxml2 configure.compiler=macports-gcc-4.9
+port install -s libxmlxx2 configure.compiler=macports-gcc-4.9
+port install -s sqlite3 configure.compiler=macports-gcc-4.9
+port install -s doxygen configure.compiler=macports-gcc-4.9
+port install -s glibmmconfigure.compiler=macports-gcc-4.9

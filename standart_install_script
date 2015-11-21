@@ -1,0 +1,1 @@
+port install cmake boost libxml2 libxmlxx2 sqlite3 doxygen glibmm
