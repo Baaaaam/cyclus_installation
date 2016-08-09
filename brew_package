@@ -1,0 +1,1 @@
+libxml++ PkgConfig cmake boost libxml2 sqlite3 doxygen glibmm
